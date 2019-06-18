@@ -1,0 +1,8 @@
+<cq-carousel
+        indicatorDots="true"
+        imgUrls="{{imgUrls}}"
+
+        bind:onChange="onchange"
+        bind:onTransition="ontransition"
+        bind:onFinish="onfinish"
+></cq-carousel>

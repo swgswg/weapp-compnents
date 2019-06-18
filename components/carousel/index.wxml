@@ -1,0 +1,29 @@
+<swiper
+        class="swiper"
+        style="height: {{height}}rpx;"
+
+        indicatorDots="true"
+        imgUrls="{{imgUrls}}"
+        indicator-color="{{indicatorColor}}"
+        indicator-active-color="{{indicatorActiveColor}}"
+        autoplay="{{autoplay}}"
+        current="{{current}}"
+        interval="{{interval}}"
+        duration="{{duration}}"
+        circular="{{circular}}"
+        vertical="{{vertical}}"
+        previous-margin="{{previousMargin}}"
+        next-margin="{{nextMargin}}"
+        display-multiple-items="{{displayMultipleItems}}"
+        easing-function="{{easingFunction}}"
+
+        bindchange="bindChange"
+        bindtransition="bindTransition"
+        bindanimationfinish="bindAnimationFinish"
+>
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item class="flex-center">
+            <image src="{{item}}" class="w100" mode="widthFix"/>
+        </swiper-item>
+    </block>
+</swiper>

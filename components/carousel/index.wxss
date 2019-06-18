@@ -1,0 +1,6 @@
+@import '/components/static/css/common.wxss';
+
+.swiper{
+    width: 100%;
+    overflow: hidden;
+}

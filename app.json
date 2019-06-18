@@ -1,8 +1,9 @@
 {
     "pages": [
-        "pages/button/button",
         "pages/index/index",
-        "pages/logs/logs"
+        "pages/logs/logs",
+        "pages/button/button",
+        "pages/carousel/carousel"
     ],
     "window": {
         "backgroundTextStyle": "light",

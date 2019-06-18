@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+      "cq-carousel": "/components/carousel/index"
+  }
+}

@@ -1,6 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
+import route from '../../utils/wx_api/WxRoute.js';
 
 Page({
   data: {
@@ -50,5 +51,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+
+    ontap(e){
+        let value = e.currentTarget.dataset.value;
+        route.navigateTo('/pages/' + value +  '/' + value);
+    }
 })
