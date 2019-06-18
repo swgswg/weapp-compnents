@@ -1,0 +1,4 @@
+<view class="container">
+    <image src="./no_data.png" mode="widthFix"></image>
+    <text>暂无数据</text>
+</view>

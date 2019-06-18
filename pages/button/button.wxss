@@ -1,0 +1,9 @@
+@import '/static/css/common.wxss';
+.m20{
+    margin: 20rpx;
+}
+
+.plr20{
+    padding: 0 20rpx;
+    box-sizing: border-box;
+}

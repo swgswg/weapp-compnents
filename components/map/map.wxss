@@ -1,0 +1,13 @@
+.maps{
+    position: relative;
+}
+.cover-img{
+    position: absolute;
+    bottom: 10px;
+    left:10px;
+}
+
+.img{
+    width: 32px;
+    height: 32px;
+}

@@ -1,0 +1,12 @@
+<!--components/base/input/index.wxml-->
+<view class="container {{disabled ? 'disabled' : ''}}">
+    <view class='title'>{{title}}</view>
+    <input type="{{type}}"
+           value="{{inputValue}}"
+           disabled="{{disabled}}"
+           placeholder="{{placeholder}}"
+           bindinput="bindInput"
+           placeholder-style="font-size:16px"
+           adjust-position
+           confirm-type="done"/>
+</view>

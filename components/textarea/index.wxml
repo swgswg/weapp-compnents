@@ -1,0 +1,11 @@
+<!--components/textarea/index.wxml-->
+<view class='flex-center'>
+    <textarea 
+        style='height:{{height}}rpx;'
+        placeholder='{{placeholder}}'
+        placeholder-style="font-size:16px"
+        disabled="{{disabled}}"
+        maxlength="{{maxlength}}"
+        bindinput='bindInput'
+    ></textarea>
+</view>

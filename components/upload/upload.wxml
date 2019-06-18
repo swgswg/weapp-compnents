@@ -1,0 +1,3 @@
+<view class='img' style='width:{{width}}rpx;height:{{height}}rpx;'>
+    <image src='./no_image.png' style='width:{{width}}rpx;height:{{height}}rpx;' mode='scaleToFill' bindtap="addImg"></image>
+</view>

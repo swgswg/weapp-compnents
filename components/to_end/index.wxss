@@ -1,0 +1,6 @@
+@import '/components/static/css/common.wxss';
+
+.container{
+    font-size: 25rpx;
+    color: #ff7f00;
+}

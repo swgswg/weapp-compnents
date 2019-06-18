@@ -1,0 +1,14 @@
+@import '/components/static/css/common.wxss';
+.container{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+image{
+    width:256rpx;
+}
+text{
+    font-size: 28rpx;
+    color:#999;
+}

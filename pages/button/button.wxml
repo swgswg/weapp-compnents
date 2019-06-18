@@ -1,0 +1,43 @@
+<view class='w100 flex-column-center'>
+    <s-button size='micro' color='primary' round='true'>micro</s-button>
+    <view class='m20'></view>
+    <view class='w100 plr20'>
+    <s-button size='micro' full='true' color='primary' pill='true'>micro</s-button>
+    </view>
+    <view class='m20'></view>
+
+    <s-button size='tiny' color='ghost' round='true'>tiny</s-button>
+    <view class='m20'></view>
+    <view class='w100 plr20'>
+    <s-button text='tiny' size='tiny' full='true' color='ghost' pill='true'>tiny</s-button>
+    </view>
+    <view class='m20'></view>
+
+    <s-button size='small' color='success' round='true'>small</s-button>
+    <view class='m20'></view>
+    <view class='w100 plr20'>
+    <s-button size='small' full='true' color='success' pill='true'>small</s-button>
+    </view>
+    <view class='m20'></view>
+
+    <s-button' size='default' color='warning' round='true'>default</s-button>
+    <view class='m20'></view>
+    <view class='w100 plr20'>
+    <s-button size='default' full='true' color='warning' pill='true'>default</s-button>
+    </view>
+    <view class='m20'></view>
+
+    <s-button size='large' color='error' round='true'>large</s-button>
+    <view class='m20'></view>
+    <view class='w100 plr20'>
+    <s-button size='large' full='true' color='error' pill='true'>large</s-button>
+    </view>
+    <view class='m20'></view>
+
+    <s-button text='huge' size='huge' color='info' round='true' disabled='true'>huge</s-button>
+    <view class='m20'></view>
+    <view class='w100 plr20'>
+        <s-button size='huge' full='true' color='info' pill='true' loading='true' bind:onTap='ontap'>huge</s-button>
+    </view>
+
+</view>

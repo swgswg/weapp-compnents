@@ -1,0 +1,8 @@
+@import '/components/static/css/common.wxss';
+
+textarea{
+    width: 100%;
+    padding: 10rpx 20rpx;
+    box-sizing: border-box;
+    border:1rpx solid #bbb;
+}

@@ -1,0 +1,172 @@
+@import '/components/static/css/common.wxss';
+
+.btn{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* color:#fff!important; */
+    background-color:#f7f7f7;
+    color:#495060;
+}
+
+.btn:active{
+    opacity: 0.8;
+}
+
+
+.btn-full{
+    width: 100%;
+    display: flex;
+}
+
+.micro{
+    padding: 8rpx;
+    box-sizing: border-box;
+    font-size: 8px;
+    line-height: 8px;
+}
+
+.micro-round{
+    border-radius: 5rpx;
+}
+
+.micro-pill{
+    border-radius: 18rpx;
+}
+
+
+.tiny{
+    padding: 12rpx;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.tiny-round{
+    border-radius: 10rpx;
+}
+
+.tiny-pill{
+    border-radius: 26rpx;
+}
+
+.small{
+    padding: 16rpx;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.small-round{
+    border-radius: 12rpx;
+}
+
+.small-pill{
+    border-radius: 34rpx;
+}
+
+.default{
+    padding: 20rpx;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.default-round{
+    border-radius: 15rpx;
+}
+
+.default-pill{
+    border-radius: 42rpx;
+}
+
+.large{
+    padding: 24rpx;
+    box-sizing: border-box;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.large-round{
+    border-radius: 20rpx;
+}
+
+.large-pill{
+    border-radius: 50rpx;
+}
+
+.huge{
+    padding: 28rpx;
+    box-sizing: border-box;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.huge-round{
+    border-radius: 22rpx;
+}
+
+.huge-pill{
+    border-radius: 58rpx;
+}
+
+.color-primary{
+    color:#fff!important;
+    background:#0082d5!important;
+}
+
+.color-ghost{
+    background:#fff!important;
+    color:#495060!important;
+    border: 1rpx solid #f0f0f0;
+}
+
+.color-success{
+    color:#fff!important;
+    background:#04be5b!important;
+}
+
+.color-warning{
+    color:#fff!important;
+    background:#ff9948!important;
+}
+
+.color-error{
+    color:#fff!important;
+    background:#ed3f14!important;
+}
+
+.color-info{
+    color:#fff!important;
+    background:#2db7f5!important;
+}
+
+.btn-disabled{
+    color:#bbbec4!important;
+    background:#f7f7f7!important
+}
+.btn-disabled:active{
+    opacity: 1;
+}
+
+.btn-loading-inner{
+    display:inline-block;
+    margin-right:12px;
+    vertical-align:middle;
+    width:14px;height:14px;
+    background:0 0;
+    border-radius:50%;
+    border:2px solid #fff;
+    border-color:#fff #fff #fff transparent;
+    animation:btn-spin .6s linear;
+    animation-iteration-count:infinite
+}
+.btn-inline{display:inline-block}
+@keyframes btn-spin{
+    0%{
+        transform:rotate(0)
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+}

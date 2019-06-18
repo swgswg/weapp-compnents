@@ -1,0 +1,24 @@
+    <button 
+    class='btn {{full ? "btn-full":""}} {{size}} {{round ?  size + "-round" : ""}} {{pill ? size+"-pill" : ""}} {{"color-"+ color}} {{disabled ? "btn-disabled" : ""}}'
+
+    open-type="{{openType}}"
+    app-parameter="{{ appParameter }}"
+    hover-stop-propagation="{{ hoverStopPropagation }}"
+    hover-start-time="{{ hoverStartTime }}"
+    hover-stay-time="{{ hoverStayTime }}"
+    session-from="{{ sessionFrom }}"
+    send-message-title="{{ sendMessageTitle }}"
+    send-message-path="{{ sendMessagePath }}"
+    send-message-img="{{ sendMessageImg }}"
+    show-message-card="{{ showMessageCard }}"
+
+    bindtap="bindTap"
+    bindcontact="bindContact"
+    bindgetuserinfo="bindGetUserInfo"
+    bindgetphonenumber="bindGetPhoneNumber"
+    binderror="bindError"
+    >
+    <view class="btn-loading-inner" wx:if="{{loading}}"></view>
+   <slot></slot>
+    </button>
+

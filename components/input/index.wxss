@@ -1,0 +1,24 @@
+@import '/components/static/css/common.wxss';
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height:80rpx;
+    border-bottom: 1rpx solid #ddd;
+}
+
+.disabled{
+    background-color:#f0f0f0;
+}
+
+.title{
+    width: 25%;
+    margin-right: 20rpx;
+    font-size: 30rpx;
+}
+
+input{
+    width: 75%;
+}

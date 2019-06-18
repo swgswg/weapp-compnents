@@ -1,0 +1,30 @@
+<view class="maps">
+    <map
+        id="map"
+        longitude="{{longitude}}"
+        latitude="{{latitude}}"
+        scale="{{scale}}"
+        markers="{{markers}}"
+        polyline="{{polyline}}"
+        bindregionchange="regionchange"
+        show-location="{{show_location}}"
+        show-compass="{{show_compass}}"
+        enable-3D="{{enable_3D}}"
+        enable-overlooking="{{enable_overlooking}}"
+        enable-zoom="{{enable_zoom}}"
+        enable-scroll="{{enable_scroll}}"
+        enable-rotate="{{enable_rotate}}"
+        enable-satellite="{{enable_satellite}}"
+        enable-traffic="{{enable_traffic}}"
+
+        bindmarkertap="markertap"
+        bindregionchange="regionchange"
+        bindpoitap="poitap"
+        style="width:{{width}}px; height:{{height}}px;"
+    ></map>
+
+    <!--<cover-view hidden="{{!seat}}" class="cover-img">-->
+        <!--<cover-image class="img" src="./seat.png" bindtap="getLocation"/>-->
+    <!--</cover-view>-->
+
+</view>

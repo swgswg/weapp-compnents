@@ -1,0 +1,110 @@
+page{
+    line-height:1.6;
+    font-family:-apple-system-font,Helvetica Neue,sans-serif
+}
+
+.flex-center{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column-center{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex-around{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.flex-between{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inline-flex{
+    display: inline-flex;
+}
+
+.inline-flex-center{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+ai-center{
+    align-items: center;
+}
+
+.w100{
+    width: 100%;
+}
+.w90{
+    width: 90%;
+}
+.w80{
+    width: 80%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.btn:active {
+    color: #666;
+}
+
+.m10{
+    margin: 10rpx;
+}
+
+.mt20{
+    margin-top: 20rpx;
+}
+
+.mr20{
+    margin-right:20rpx;
+}
+
+.p20{
+    padding: 20rpx;
+    box-sizing: border-box;
+}
+
+
+
+
+.border{
+    border:1rpx solid red;
+}
