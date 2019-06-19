@@ -1,0 +1,4 @@
+<view class="flex-center border">
+    <cq-loading></cq-loading>
+</view>
+

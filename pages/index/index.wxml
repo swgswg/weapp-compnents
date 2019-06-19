@@ -1,6 +1,28 @@
 <!--index.wxml-->
 <view class="w100">
     <cq-button full='true' data-value='button' bind:onTap='ontap'> button </cq-button>
+
     <view class='mt20'></view>
+    
     <cq-button full='true' data-value='carousel' bind:onTap='ontap'> carousel </cq-button>
+
+    <view class='mt20'></view>
+    
+    <cq-button full='true' data-value='radio' bind:onTap='ontap'> radio </cq-button>
+
+    <view class='mt20'></view>
+
+    <cq-button full='true' data-value='loading' bind:onTap='ontap'> loading </cq-button>
+
+    <view class='mt20'></view>
+
+    <cq-button full='true' data-value='no_data' bind:onTap='ontap'> no-data </cq-button>
+
+    <view class='mt20'></view>
+
+    <cq-button full='true' data-value='to_end' bind:onTap='ontap'> to-end </cq-button>
+
+    <view class='mt20'></view>
+
+    <cq-button full='true' data-value='tab' bind:onTap='ontap'> tab </cq-button>
 </view>

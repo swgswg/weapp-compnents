@@ -2,7 +2,7 @@
         class="swiper"
         style="height: {{height}}rpx;"
 
-        indicatorDots="true"
+        indicatorDots="{{indicatorDots}}"
         imgUrls="{{imgUrls}}"
         indicator-color="{{indicatorColor}}"
         indicator-active-color="{{indicatorActiveColor}}"

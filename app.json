@@ -3,7 +3,12 @@
         "pages/index/index",
         "pages/logs/logs",
         "pages/button/button",
-        "pages/carousel/carousel"
+        "pages/carousel/carousel",
+        "pages/radio/radio",
+        "pages/loading/loading",
+        "pages/no_data/no_data",
+        "pages/to_end/to_end",
+        "pages/tab/tab"
     ],
     "window": {
         "backgroundTextStyle": "light",

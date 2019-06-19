@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+      "cq-no-data": "/components/no_data/index"
+  }
+}

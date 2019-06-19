@@ -1,0 +1,8 @@
+/* components/tab/index.wxss */
+@import '/components/static/css/common.wxss';
+
+.cq-tabs{
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}

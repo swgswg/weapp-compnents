@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+      "cq-to-end": "/components/to_end/index"
+  }
+}

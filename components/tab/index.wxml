@@ -1,0 +1,12 @@
+<scroll-view scroll-x class="cq-tabs" style="height:{{height}}rpx; background-color: {{backgroundColor}};">
+    <block wx:for="{{tabs}}" wx:key="{{index}}">
+        <view class="inline-flex-center plr20"
+                style="height:{{height}}rpx; color:{{selected == index ? color : ''}}; border-bottom: 2px solid {{selected == index ? color : backgroundColor}};"
+                data-index="{{index}}"
+                bind:tap="bindTap">
+            <text wx:if="{{icon}}" class="iconfont icon-{{icon}} mr10"></text>
+            <text>{{item.value}}</text>
+        </view>
+    </block>
+</scroll-view>
+

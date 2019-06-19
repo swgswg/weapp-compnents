@@ -1,0 +1,6 @@
+<radio-group class="flex-column-center plr20" bind:change="radioChange">
+    <label class="w100 ptb20 border-bottom {{site}} {{reverse ? 'row-reverse' : 'row'}}" wx:for="{{items}}" wx:key="{{item.name}}">
+        <radio color='{{color}}' value="{{item.name}}" checked="{{item.checked}}"/>
+        <view class="radio-title plr20" style="color:{{textCheckedColor && textChecked === item.name ? textCheckedColor  : ''}}">{{item.value}}</view>
+    </label>
+</radio-group>

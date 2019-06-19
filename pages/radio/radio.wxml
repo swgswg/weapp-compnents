@@ -1,0 +1,4 @@
+<view>
+    <cq-radio color='red' textCheckedColor='yellow' site='right' bind:onChange='radioChange'></cq-radio>
+</view> 
+

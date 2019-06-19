@@ -1,0 +1,3 @@
+<view class='flex-center border'>
+    <cq-to-end></cq-to-end>
+</view>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+      "cq-tab": "/components/tab/index"
+  }
+}

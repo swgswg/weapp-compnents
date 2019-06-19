@@ -1,3 +1,5 @@
+@import '/components/icon/icon1/iconfont.wxss';
+
 page{
     line-height:1.6;
     font-family:-apple-system-font,Helvetica Neue,sans-serif
@@ -67,6 +69,10 @@ ai-center{
     align-items: center;
 }
 
+.nowrap{
+    flex-wrap: nowrap;
+}
+
 .w100{
     width: 100%;
 }
@@ -89,6 +95,10 @@ ai-center{
     margin: 10rpx;
 }
 
+.mr10{
+    margin-right: 10rpx;
+}
+
 .mt20{
     margin-top: 20rpx;
 }
@@ -97,13 +107,32 @@ ai-center{
     margin-right:20rpx;
 }
 
+.ptb10{
+    padding:10rpx 0;
+    box-sizing: border-box;
+}
+
 .p20{
     padding: 20rpx;
     box-sizing: border-box;
 }
 
+.plr20{
+    padding: 0 20rpx;
+    box-sizing: border-box;
+}
+
+.ptb20{
+    padding: 20rpx 0;
+    box-sizing: border-box;
+}
+
 .border{
     border:1rpx solid red;
+}
+
+.border-bottom{
+    border-bottom: 1rpx solid #ccc;
 }
 
 
