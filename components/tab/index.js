@@ -7,11 +7,10 @@ Component({
         tabs:{
             type:Array,
             value:[
-                {name:1, value:'tab1'},
-                {name:2, value:'tab2'},
-                {name:3, value:'tab3'},
-                {name:4, value:'tab4'},
-               
+                {name:1, value:'tab1', icon:'scoring'},
+                {name:2, value:'tab2', icon:'pingfen'},
+                {name:3, value:'tab3', icon:''},
+                {name:4, value:'tab4', icon:'tiaozheng-'},
             ]
         },
         height:{
@@ -26,7 +25,6 @@ Component({
             type:String,
             value:'#fff'
         },
-        icon:String
     },
 
     /**

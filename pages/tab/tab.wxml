@@ -1,3 +1,3 @@
 <view>
-    <cq-tab height='80' backgroundColor='#fff' color='blue' icon='tiaozheng-' bind:onTab='ontab'></cq-tab>
+    <cq-tab height='80' backgroundColor='#fff' color='blue' bind:onTab='ontab'></cq-tab>
 </view>
