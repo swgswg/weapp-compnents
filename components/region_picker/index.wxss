@@ -1,0 +1,8 @@
+/* components/region_picker/index.wxss */
+@import '/components/static/css/common.wxss';
+
+.region-picker{
+    font-size: 15px;
+    line-height: 15px;
+    border-bottom: 1rpx solid #ccc;
+}

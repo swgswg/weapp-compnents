@@ -1,0 +1,6 @@
+<picker mode="region" bindchange="bindChange" value="{{region}}" custom-item="{{customItem}}">
+    <view class="flex-between p20 region-picker">
+        <view>地址选择：</view>
+        <view>{{region[0]}}，{{region[1]}}，{{region[2]}}</view>
+    </view>
+</picker>

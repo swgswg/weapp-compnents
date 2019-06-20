@@ -37,4 +37,8 @@
     <view class='mt20'></view>
 
     <cq-button full='true' data-value='number' bind:onTap='ontap'> number </cq-button>
+    
+    <view class='mt20'></view>
+
+    <cq-button full='true' data-value='region_picker' bind:onTap='ontap'> region-picker </cq-button>
 </view>

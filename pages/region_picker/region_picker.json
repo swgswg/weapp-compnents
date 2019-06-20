@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+      "cq-region-picker": "/components/region_picker/index"
+  }
+}

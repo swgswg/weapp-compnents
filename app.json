@@ -11,7 +11,8 @@
         "pages/tab/tab",
         "pages/checkbox/checkbox",
         "pages/rate/rate",
-        "pages/number/number"
+        "pages/number/number",
+        "pages/region_picker/region_picker"
     ],
     "window": {
         "backgroundTextStyle": "light",

@@ -1,0 +1,1 @@
+<cq-region-picker region='{{region}}' bind:onChange='onchange'></cq-region-picker>
