@@ -1,1 +1,1 @@
-<cq-rate count='10' color='red' size='30' value='4'  bind:onTab='ontab'>aaa</cq-rate>
+<cq-rate count='10' color='red' size='30' value='4' icon='tiaozheng-'  bind:onTab='ontab'>aaa</cq-rate>

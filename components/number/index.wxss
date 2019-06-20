@@ -1,0 +1,31 @@
+/* components/number/index.wxss */
+@import '/components/static/css/common.wxss';
+
+.number{
+    border:1rpx solid #aaa;
+    border-radius: 5rpx;
+}
+
+.input{
+    width: 40%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    border-left:1rpx solid #aaa;
+    border-right:1rpx solid #aaa;
+}
+
+.btn{
+    width: 30%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.number-disabled{
+    color:#bbbec4;
+    background-color:#f7f7f7;
+}

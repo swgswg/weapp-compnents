@@ -1,0 +1,21 @@
+<view class="inline-flex-center number" style="width: {{width}}rpx;height:{{height}}rpx;">
+
+    <view 
+        class="btn {{ value <= min || diaabled ? 'number-disabled' : '' }}" 
+        style='height:{{height}}rpx;' bind:tap='jian'
+        >-</view>
+    <input
+            class="input {{ min >= max ? 'number-disabled' : '' }}"
+            type="number"
+            value='{{value}}'
+            style='height:{{height}}rpx;'
+            disabled="{{ min >= max || disabled}}"
+            bindinput="bindInput"
+            bindblur="bindBlur"
+    ></input>
+    <view 
+        class="btn {{ value >= max || disabled ? 'number-disabled' : '' }}" 
+        style='height:{{height}}rpx;' bind:tap='jia'
+    >+</view>
+
+</view>

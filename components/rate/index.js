@@ -20,6 +20,14 @@ Component({
             type:Number,
             value: -1
         },
+        icon:{
+            type:String,
+            value:'pingfen-xian'
+        },
+        selectIcon:{
+            type:String,
+            value:'pingfenhuang'
+        },
         disabled: Boolean
     },
 

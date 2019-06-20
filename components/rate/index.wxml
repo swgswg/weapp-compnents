@@ -1,6 +1,6 @@
 <view class="inline-flex-center">
     <block wx:for="{{count}}" wx:key="{{index}}">
-        <cq-icon icon="{{value >= index ? 'pingfenhuang' : 'pingfen-xian'}}"
+        <cq-icon icon="{{value >= index ? selectIcon : icon}}"
                  size="{{size}}"
                  color="{{color}}"
                  data-index="{{index}}"

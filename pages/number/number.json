@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+      "cq-number": "/components/number/index"
+  }
+}

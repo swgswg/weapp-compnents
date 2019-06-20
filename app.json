@@ -10,7 +10,8 @@
         "pages/to_end/to_end",
         "pages/tab/tab",
         "pages/checkbox/checkbox",
-        "pages/rate/rate"
+        "pages/rate/rate",
+        "pages/number/number"
     ],
     "window": {
         "backgroundTextStyle": "light",

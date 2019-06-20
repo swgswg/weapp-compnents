@@ -33,4 +33,8 @@
     <view class='mt20'></view>
 
     <cq-button full='true' data-value='rate' bind:onTap='ontap'> rate </cq-button>
+
+    <view class='mt20'></view>
+
+    <cq-button full='true' data-value='number' bind:onTap='ontap'> number </cq-button>
 </view>
