@@ -8,7 +8,8 @@
         "pages/loading/loading",
         "pages/no_data/no_data",
         "pages/to_end/to_end",
-        "pages/tab/tab"
+        "pages/tab/tab",
+        "pages/checkbox/checkbox"
     ],
     "window": {
         "backgroundTextStyle": "light",

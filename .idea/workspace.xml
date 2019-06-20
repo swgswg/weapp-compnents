@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7bae4b-a28c-45bb-822e-c9230bc4531e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/icon/icon1/iconfont.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/icon/icon1/iconfont.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/tab/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/tab/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/tab/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/tab/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/tab/tab.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tab/tab.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/checkbox/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/checkbox/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/checkbox/index.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/checkbox/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/radio/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/radio/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,23 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/tab/index.wxml">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/checkbox/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-              <folding>
-                <element signature="n#style#0;n#view#0;n#view#0;n#block#0;n#scroll-view#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="587">
+              <caret line="88" column="26" lean-forward="true" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/tab/index.js">
+      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/checkbox/index.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1288">
-              <caret line="46" column="59" lean-forward="true" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+            <state relative-caret-position="56">
+              <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+              <folding>
+                <element signature="n#style#0;n#view#0;n#label#0;n#radio-group#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,7 +65,6 @@
         <option value="$PROJECT_DIR$/components/carousel/index.wxml" />
         <option value="$PROJECT_DIR$/components/radio/index.wxss" />
         <option value="$PROJECT_DIR$/components/no_data/index.js" />
-        <option value="$PROJECT_DIR$/components/radio/index.wxml" />
         <option value="$PROJECT_DIR$/components/radio/index.js" />
         <option value="$PROJECT_DIR$/pages/loading/loading.wxml" />
         <option value="$PROJECT_DIR$/pages/loading/loading.wxss" />
@@ -73,6 +74,9 @@
         <option value="$PROJECT_DIR$/components/tab/index.js" />
         <option value="$PROJECT_DIR$/components/icon/icon1/iconfont.wxss" />
         <option value="$PROJECT_DIR$/components/tab/index.wxml" />
+        <option value="$PROJECT_DIR$/components/radio/index.wxml" />
+        <option value="$PROJECT_DIR$/components/checkbox/index.wxml" />
+        <option value="$PROJECT_DIR$/components/checkbox/index.js" />
       </list>
     </option>
   </component>
@@ -109,6 +113,18 @@
               <item name="weapp-components" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="weapp-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weapp-components" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="checkbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weapp-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weapp-components" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="radio" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -128,6 +144,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\install\Wechat_devtools\weapp-components\components\checkbox" />
       <recent name="E:\install\Wechat_devtools\weapp-components\components\icon\icon1" />
       <recent name="E:\install\Wechat_devtools\weapp-components\static" />
     </key>
@@ -156,12 +173,12 @@
       <updated>1560821360067</updated>
       <workItem from="1560821361691" duration="13136000" />
       <workItem from="1560905858877" duration="19550000" />
-      <workItem from="1560991932644" duration="1194000" />
+      <workItem from="1560991932644" duration="3474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33880000" />
+    <option name="totallyTimeSpent" value="36160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -379,13 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/radio/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/radio/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -435,6 +445,49 @@
           <folding>
             <element signature="n#style#0;n#view#0;n#view#0;n#block#0;n#scroll-view#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/checkbox/checkbox.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/checkbox/radio/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/checkbox/index.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/radio/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="111" selection-start-line="2" selection-start-column="111" selection-end-line="2" selection-end-column="111" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#label#0;n#radio-group#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/checkbox/index.wxss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/checkbox/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#label#0;n#radio-group#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/checkbox/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="88" column="26" lean-forward="true" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
         </state>
       </provider>
     </entry>

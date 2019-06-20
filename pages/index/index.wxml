@@ -25,4 +25,8 @@
     <view class='mt20'></view>
 
     <cq-button full='true' data-value='tab' bind:onTap='ontap'> tab </cq-button>
+
+     <view class='mt20'></view>
+
+    <cq-button full='true' data-value='checkbox' bind:onTap='ontap'> checkbox </cq-button>
 </view>

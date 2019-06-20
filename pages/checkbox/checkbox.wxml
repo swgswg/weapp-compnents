@@ -1,0 +1,1 @@
+<cq-checkbox color='red' textCheckedColor='blue' bind:onChange='onchange'></cq-checkbox>

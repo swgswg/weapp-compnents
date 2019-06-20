@@ -1,0 +1,6 @@
+<checkbox-group class="flex-column-center plr20" bind:change="radioChange">
+    <label class="w100 ptb20 border-bottom {{site}} {{reverse ? 'row-reverse' : 'row'}}" wx:for="{{items}}" wx:key="{{item.name}}">
+        <checkbox color='{{color}}' value="{{item.name}}" checked="{{item.checked}}" disabled="{{item.disabled}}" />
+        <view class="radio-title plr20" style="color:{{textCheckedColor && textChecked[index] ? textCheckedColor  : ''}}">{{item.value}}</view>
+    </label>
+</checkbox-group>

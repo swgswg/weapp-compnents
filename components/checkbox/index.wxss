@@ -1,0 +1,21 @@
+@import '/components/static/css/common.wxss';
+
+.row{
+    flex-direction: row;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio-title{
+    display:inline-block;
+    vertical-align:middle;
+}
