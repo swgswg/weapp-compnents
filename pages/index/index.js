@@ -56,5 +56,6 @@ Page({
     ontap(e){
         let value = e.currentTarget.dataset.value;
         route.navigateTo('/pages/' + value +  '/' + value);
-    }
+    },
+
 })

@@ -1,0 +1,11 @@
+<view class="inline-flex-center">
+    <block wx:for="{{count}}" wx:key="{{index}}">
+        <cq-icon icon="{{value >= index ? 'pingfenhuang' : 'pingfen-xian'}}"
+                 size="{{size}}"
+                 color="{{color}}"
+                 data-index="{{index}}"
+                 bind:tap="onTab"
+        ></cq-icon>
+    </block>
+    <view class="rate-text" wx:if="{{ count >  0 }}"><slot></slot></view>
+</view>

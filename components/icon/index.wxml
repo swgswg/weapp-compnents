@@ -1,0 +1,4 @@
+<view 
+    class="iconfont {{ icon === '' ? '' : 'icon-' +  icon }} {{ custom }}"
+    style="font-size: {{ size }}px; line-height:{{size}}px;{{ color ? 'color:' + color : '' }}">
+</view>

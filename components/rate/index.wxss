@@ -1,0 +1,9 @@
+/* components/rate/index.wxss */
+@import '/components/static/css/common.wxss';
+
+.tate-text{
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:6px;
+    font-size:14px
+}

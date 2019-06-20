@@ -9,7 +9,8 @@
         "pages/no_data/no_data",
         "pages/to_end/to_end",
         "pages/tab/tab",
-        "pages/checkbox/checkbox"
+        "pages/checkbox/checkbox",
+        "pages/rate/rate"
     ],
     "window": {
         "backgroundTextStyle": "light",

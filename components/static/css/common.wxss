@@ -1,4 +1,4 @@
-@import '/components/icon/icon1/iconfont.wxss';
+/* @import '/components/icon/icon1/iconfont.wxss'; */
 
 page{
     line-height:1.6;
