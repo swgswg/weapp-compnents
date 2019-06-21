@@ -41,4 +41,16 @@
     <view class='mt20'></view>
 
     <cq-button full='true' data-value='region_picker' bind:onTap='ontap'> region-picker </cq-button>
+
+    <view class='mt20'></view>
+
+    <cq-button full='true' data-value='date_picker' bind:onTap='ontap'> date-picker </cq-button>
+
+    <view class='mt20'></view>
+
+    <cq-button full='true' data-value='chat' bind:onTap='ontap'> chat</cq-button>
+
+    <view class='mt20'></view>
+
+    <cq-button full='true' data-value='chat2' bind:onTap='ontap'> chat2 </cq-button>
 </view>

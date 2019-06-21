@@ -1,0 +1,13 @@
+<picker
+        mode="date"
+        value="{{date}}"
+        start="{{start}}"
+        end="{{end}}"
+        fields="{{fields}}"
+        bindchange="bindChange"
+>
+    <view class="flex-between p20 date-picker">
+        <view>日期选择：</view>
+        <view>{{date}}</view>
+    </view>
+</picker>

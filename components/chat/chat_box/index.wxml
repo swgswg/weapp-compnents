@@ -1,0 +1,10 @@
+<view class="container">
+    <view class='box'>
+        <text 
+            class='triangle {{site}}' 
+            style="{{site === 'top' || site === 'bottom' ? ('left:'+ offset + '%') : ('top:'+ offset + '%')}}"
+        >
+        </text>
+        <slot></slot>    
+    </view>
+</view>

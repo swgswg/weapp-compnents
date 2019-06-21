@@ -1,0 +1,38 @@
+<view class='container'>
+    <view class="date">
+        <text class='date-text'>2018年3月23日 13:23</text>
+    </view>
+    <view class="chat-item self">
+        <image 
+            src="https://ossweb-img.qq.com/images/lol/web201310/skin/big107000.jpg" 
+            mode="scaleToFill"
+            class="chat-avatar radius"
+        ></image>
+        <view class='content-name'>
+            <view class='name'>aaaa</view>    
+            <chat-box site='right' offset='30'>
+                <view class='msg'>喵喵喵！喵喵喵！！</view>
+            </chat-box>
+        </view>
+    </view>
+    
+</view>
+
+<view>
+    <view class="date">
+        <text class='date-text'>2018年3月23日 13:23</text>
+    </view>
+    <view class="chat-item">
+        <image 
+            src="https://ossweb-img.qq.com/images/lol/web201310/skin/big107000.jpg" 
+            mode="scaleToFill"
+            class="chat-avatar radius"
+        ></image>
+        <view class='content-name'>
+            <view class='name'>aaaa</view>    
+            <chat-box site='left' offset='30'>
+                <text class='msg'>喵喵喵！喵喵喵！喵喵喵！喵喵！喵喵！！喵！喵喵喵！</text>
+            </chat-box>
+        </view>
+    </view>
+</view>

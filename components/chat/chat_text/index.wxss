@@ -1,0 +1,72 @@
+@import '/components/static/css/common.wxss';
+
+.container{
+    padding: 20rpx 20rpx 80rpx;
+    box-sizing: border-box;
+}
+
+.chat-item{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.self{
+    flex-direction: row-reverse;
+    color:#fff;
+}
+
+.chat-avatar{
+    width: 80rpx;
+    height:80rpx;
+    margin-right: 20rpx;
+    border-radius: 10rpx;
+}
+
+.self .chat-avatar{
+    margin-left: 20rpx;
+}
+
+.content-name{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 70%; 
+    padding: 0 0 0 20rpx;
+    box-sizing: border-box;
+}
+
+.self .content-name{
+    padding:0 20rpx 0 0; 
+}
+
+.self .content-name{
+    align-items: flex-end;
+}
+
+.name{
+    font-size: 14px;
+    line-height: 14px;
+    color:#666;
+}
+
+.msg{
+    font-size: 14px;
+    line-height: 14px;
+    color:#fff;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.date-text{
+    padding:3rpx 10rpx;
+    box-sizing: border-box;
+    border-radius: 5rpx;
+    background-color: #ccc;
+}

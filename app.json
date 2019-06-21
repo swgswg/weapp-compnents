@@ -12,7 +12,10 @@
         "pages/checkbox/checkbox",
         "pages/rate/rate",
         "pages/number/number",
-        "pages/region_picker/region_picker"
+        "pages/region_picker/region_picker",
+        "pages/date_picker/date_picker",
+        "pages/chat/chat",
+        "pages/chat2/chat2"
     ],
     "window": {
         "backgroundTextStyle": "light",

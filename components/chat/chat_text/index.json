@@ -1,0 +1,6 @@
+{
+    "component": true,
+    "usingComponents": {
+        "chat-box":"/components/chat/chat_box/index"
+    }
+}

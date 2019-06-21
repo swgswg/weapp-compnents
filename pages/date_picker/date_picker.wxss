@@ -1,0 +1,2 @@
+/* pages/date_picker/date_picker.wxss */
+@import '/static/css/common.wxss';

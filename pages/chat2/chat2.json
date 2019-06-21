@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+      "cq-chat-text":"/components/chat/chat_text/index"
+  }
+}

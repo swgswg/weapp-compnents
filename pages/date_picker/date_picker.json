@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cq-date-picker": "/components/date_picker/index"
+  }
+}

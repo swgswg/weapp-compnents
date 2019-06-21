@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7bae4b-a28c-45bb-822e-c9230bc4531e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/chat/chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/chat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/chat.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/chat.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,20 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/region_picker/index.wxml">
+      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/chat/chat_text/index.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/region_picker/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+            <state relative-caret-position="420">
+              <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -79,9 +76,17 @@
         <option value="$PROJECT_DIR$/components/number/index.js" />
         <option value="$PROJECT_DIR$/components/rate/index.js" />
         <option value="$PROJECT_DIR$/components/rate/index.wxml" />
-        <option value="$PROJECT_DIR$/components/region_picker/index.wxml" />
         <option value="$PROJECT_DIR$/components/region_picker/index.wxss" />
         <option value="$PROJECT_DIR$/components/region_picker/index.js" />
+        <option value="$PROJECT_DIR$/components/date_picker/index.wxss" />
+        <option value="$PROJECT_DIR$/components/region_picker/index.wxml" />
+        <option value="$PROJECT_DIR$/components/date_picker/index.wxml" />
+        <option value="$PROJECT_DIR$/components/date_picker/index.js" />
+        <option value="$PROJECT_DIR$/pages/chat/chat.js" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/app.wxss" />
+        <option value="$PROJECT_DIR$/components/chat/chat_text/index.wxss" />
+        <option value="$PROJECT_DIR$/components/chat/chat_text/index.wxml" />
       </list>
     </option>
   </component>
@@ -122,13 +127,20 @@
               <item name="weapp-components" type="b2602c69:ProjectViewProjectNode" />
               <item name="weapp-components" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="region_picker" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="weapp-components" type="b2602c69:ProjectViewProjectNode" />
               <item name="weapp-components" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="tab" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
+              <item name="chat_text" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weapp-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weapp-components" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="checkbox" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,6 +161,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\install\Wechat_devtools\weapp-components\pages" />
       <recent name="E:\install\Wechat_devtools\weapp-components\components\checkbox" />
       <recent name="E:\install\Wechat_devtools\weapp-components\components\icon\icon1" />
       <recent name="E:\install\Wechat_devtools\weapp-components\static" />
@@ -178,12 +191,13 @@
       <updated>1560821360067</updated>
       <workItem from="1560821361691" duration="13136000" />
       <workItem from="1560905858877" duration="19550000" />
-      <workItem from="1560991932644" duration="19952000" />
+      <workItem from="1560991932644" duration="22857000" />
+      <workItem from="1561078751261" duration="6172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52638000" />
+    <option name="totallyTimeSpent" value="61715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -220,35 +234,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/button/button.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/button/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/scroll/scroll.wxml" />
-    <entry file="file://$PROJECT_DIR$/components/button/index.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/carousel/index.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/button/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
@@ -372,9 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#view#0;n#view#0;n#block#0;n#scroll-view#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -385,32 +367,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/checkbox/radio/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/checkbox/index.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/radio/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" column="111" selection-start-line="2" selection-start-column="111" selection-end-line="2" selection-end-column="111" />
-          <folding>
-            <element signature="n#style#0;n#view#0;n#label#0;n#radio-group#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/checkbox/index.wxss">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/components/checkbox/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
-          <folding>
-            <element signature="n#style#0;n#view#0;n#label#0;n#radio-group#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -449,9 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/rate/rate.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/rate/rate.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -470,9 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="n#style#0;n#view#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -515,12 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#0;n#view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#view#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#1;n#view#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -554,8 +509,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/region_picker/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        <state relative-caret-position="84">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/date_picker/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -568,8 +530,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/region_picker/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+        <state relative-caret-position="475">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/chat/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/date_picker/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/date_picker/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/checkbox/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/chat/chat_text/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/chat/chat_text/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
