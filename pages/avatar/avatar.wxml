@@ -1,0 +1,52 @@
+<view>
+    <cq-avatar 
+        src='https://i.loli.net/2017/08/21/599a521472424.jpg'
+        mode='aspectFit'
+        size='large'
+        shape='round'
+        bind:onTap='ontap'
+    ></cq-avatar>
+
+    <cq-avatar 
+        src=''
+        mode='aspectFit'
+        size='large'
+        shape='round'
+    >宋</cq-avatar>
+</view>
+
+ <view class='mt20'></view>
+<view>
+    <cq-avatar 
+        src='https://i.loli.net/2017/08/21/599a521472424.jpg'
+        mode='aspectFit'
+        size='default'
+        shape='circle'
+    ></cq-avatar>
+
+    <cq-avatar 
+        src=''
+        mode='aspectFit'
+        size='default'
+        shape='circle'
+        color='blue'
+    >宋</cq-avatar>
+</view>
+
+ <view class='mt20'></view>
+<view>
+    <cq-avatar 
+        src='https://i.loli.net/2017/08/21/599a521472424.jpg'
+        mode='aspectFit'
+        size='small'
+        shape='round'
+    ></cq-avatar>
+
+    <cq-avatar 
+        src=''
+        mode='aspectFit'
+        size='small'
+        shape='round'
+        color='red'
+    >宋</cq-avatar>
+</view>

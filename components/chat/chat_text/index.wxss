@@ -67,6 +67,7 @@
 .date-text{
     padding:3rpx 10rpx;
     box-sizing: border-box;
+    color:#aaa;
     border-radius: 5rpx;
-    background-color: #ccc;
+    /* background-color: #ccc; */
 }

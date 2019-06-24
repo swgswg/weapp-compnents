@@ -1,6 +1,6 @@
 <view class='container'>
     <view class="date">
-        <text class='date-text'>2018年3月23日 13:23</text>
+        <text class='date-text'>2019年6月21日 19:03</text>
     </view>
     <view class="chat-item self">
         <image 
@@ -18,9 +18,9 @@
     
 </view>
 
-<view>
+<view class='container'>
     <view class="date">
-        <text class='date-text'>2018年3月23日 13:23</text>
+        <text class='date-text'>2019年6月21日 19:03</text>
     </view>
     <view class="chat-item">
         <image 
@@ -36,3 +36,5 @@
         </view>
     </view>
 </view>
+
+<chat-info></chat-info>

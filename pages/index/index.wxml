@@ -53,4 +53,8 @@
     <view class='mt20'></view>
 
     <cq-button full='true' data-value='chat2' bind:onTap='ontap'> chat2 </cq-button>
+
+    <view class='mt20'></view>
+
+    <cq-button full='true' data-value='avatar' bind:onTap='ontap'> avatar </cq-button>
 </view>

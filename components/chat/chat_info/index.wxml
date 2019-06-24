@@ -1,0 +1,4 @@
+<view class="flex-center">
+    <slot></slot>
+    <view class='text'>asdfasdfasdfasdfa发送到发送到发送到发大水</view>
+</view>

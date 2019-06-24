@@ -1,0 +1,16 @@
+@import '/components/static/css/common.wxss';
+
+.container{
+    
+}
+
+.text{
+    max-width: 400rpx;
+    padding: 10rpx;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 12px;
+    color:#999;
+    border-radius: 5rpx;
+    background-color: #ddd;
+}

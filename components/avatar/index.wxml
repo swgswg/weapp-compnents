@@ -1,0 +1,8 @@
+<view class="container {{'container-' + size}} {{'avatar-' + shape}}" bind:tap="bindTap">
+    <block wx:if="{{src}}">
+        <image src="{{src}}" mode="{{mode}}" class="{{'img-'+ size}}"></image>
+    </block>
+    <block wx:else>
+        <view class="text {{'text-'+size}}" style="{{'background-color:'+color}}"><slot></slot></view>
+    </block>
+</view>

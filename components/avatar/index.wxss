@@ -1,0 +1,74 @@
+@import '/components/static/css/common.wxss';
+
+.container{
+    display:inline-block;
+    text-align:center;
+    vertical-align:middle;
+    overflow: hidden;
+    white-space:nowrap;
+    color:#fff;
+    background-color:#ccc;
+}
+
+.container-large{
+    width: 150rpx;
+    height: 150rpx;
+}
+
+.img-large{
+    width: 150rpx;
+    height: 150rpx;
+}
+
+.text-large{
+    width: 150rpx;
+    height: 150rpx;
+    font-size:40px;
+    line-height:150rpx;
+}
+
+.container-default{
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.img-default{
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.text-default{
+    width: 100rpx;
+    height: 100rpx;
+    font-size:28px;
+    line-height:100rpx;
+}
+
+
+.container-small{
+    width: 60rpx;
+    height: 60rpx;
+}
+
+.img-small{
+    width: 60rpx;
+    height: 60rpx;
+}
+
+.text-small{
+    width: 60rpx;
+    height: 60rpx;
+    font-size:16px;
+    line-height:60rpx;
+}
+
+
+
+.avatar-circle{
+    border-radius: 50%;
+}
+
+.avatar-round{
+    border-radius: 10rpx;
+}
+

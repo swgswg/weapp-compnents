@@ -1,6 +1,7 @@
 {
     "component": true,
     "usingComponents": {
-        "chat-box":"/components/chat/chat_box/index"
+        "chat-box":"/components/chat/chat_box/index",
+        "chat-info": "/components/chat/chat_info/index"
     }
 }

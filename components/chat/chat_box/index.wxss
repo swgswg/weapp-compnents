@@ -9,7 +9,7 @@
 .box {
     position: relative;
     min-width: 50rpx;
-    min-height: 50rpx;
+    min-height: 30rpx;
     padding: 15rpx;
     border-radius: 6rpx;
     background-color: #39b54a;
@@ -20,13 +20,13 @@
     width: 0;
     height: 0;
     z-index: 1;
-    border-width: 20rpx;
+    border-width: 16rpx;
     border-style: solid;
     border-color: transparent;
 }
 .top {
     border-bottom-color: #39b54a;
-    top: -40rpx;
+    top: -32rpx;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -34,21 +34,21 @@
 
 .right {
     border-left-color: #39b54a;
-    right: -40rpx;
+    right: -32rpx;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 .bottom {
     border-top-color: #39b54a;
-    bottom: -40rpx;
+    bottom: -32rpx;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 .left {
     border-right-color: #39b54a;
-    left: -40rpx;
+    left: -32rpx;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
