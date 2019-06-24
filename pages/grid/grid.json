@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cq-grid": "/components/grid/index"
+  }
+}

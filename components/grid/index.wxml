@@ -1,0 +1,14 @@
+<view class='container' style="{{border ? '' : 'border:0px solid #ccc'}}">
+    <block wx:for="{{girdLine}}" wx:for-item="gird_line" wx:key="{{index}}">
+        <view class="grid-container">
+            <block wx:for="{{gird_line}}" wx:for-item="gird" wx:key="{{index}}">
+                <view class="grid-item" style="width:{{size}}%;">
+                    <view class='grid-content' style="{{border ? '' : 'border:0px solid #ccc'}}">
+                        <cq-icon icon="{{gird.icon}}" color="{{gird.color}}" size="{{gird.size}}" custom="{{gird.custom}}"></cq-icon>
+                        <view class="grid-text">{{gird.text}}</view>
+                    </view>
+                </view>
+            </block>
+        </view>
+    </block>
+</view>

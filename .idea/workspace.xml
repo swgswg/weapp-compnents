@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7bae4b-a28c-45bb-822e-c9230bc4531e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/chat/chat_box/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/chat/chat_box/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/chat/chat_text/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/components/chat/chat_text/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/chat/chat_text/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/chat/chat_text/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/chat/chat_text/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/chat/chat_text/index.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.wxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,11 +18,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/avatar/index.wxml">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/grid/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+            <state relative-caret-position="784">
+              <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/grid/index.wxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="73" selection-start-column="73" selection-end-column="73" />
+              <folding>
+                <element signature="n#style#0;n#view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#block#0;n#view#0;n#block#0;n#view#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#view#0;n#block#0;n#view#0;n#block#0;n#view#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/grid/grid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -38,11 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/button/button.json" />
-        <option value="$PROJECT_DIR$/components/button/index.wxss" />
-        <option value="$PROJECT_DIR$/components/button/index.wxml" />
-        <option value="$PROJECT_DIR$/pages/button/button.wxml" />
-        <option value="$PROJECT_DIR$/components/button/index.js" />
         <option value="$PROJECT_DIR$/pages/scroll/scroll.wxml" />
         <option value="$PROJECT_DIR$/components/carousel/index.wxss" />
         <option value="$PROJECT_DIR$/pages/index/index.js" />
@@ -85,9 +100,15 @@
         <option value="$PROJECT_DIR$/components/chat/chat_text/index.wxss" />
         <option value="$PROJECT_DIR$/components/chat/chat_text/index.wxml" />
         <option value="$PROJECT_DIR$/components/chat/chat_info/index.wxml" />
-        <option value="$PROJECT_DIR$/pages/index/index.wxml" />
         <option value="$PROJECT_DIR$/pages/avatar/avatar.wxml" />
         <option value="$PROJECT_DIR$/components/avatar/index.wxml" />
+        <option value="$PROJECT_DIR$/pages/index/index.wxml" />
+        <option value="$PROJECT_DIR$/components/grid/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/grid/grid.json" />
+        <option value="$PROJECT_DIR$/pages/grid/grid.wxml" />
+        <option value="$PROJECT_DIR$/components/grid/index.js" />
+        <option value="$PROJECT_DIR$/pages/grid/grid.js" />
+        <option value="$PROJECT_DIR$/components/grid/index.wxml" />
       </list>
     </option>
   </component>
@@ -128,7 +149,24 @@
               <item name="weapp-components" type="b2602c69:ProjectViewProjectNode" />
               <item name="weapp-components" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="avatar" type="462c0819:PsiDirectoryNode" />
+              <item name="grid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weapp-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weapp-components" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weapp-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weapp-components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weapp-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weapp-components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="grid" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,18 +219,18 @@
       <workItem from="1560905858877" duration="19550000" />
       <workItem from="1560991932644" duration="22857000" />
       <workItem from="1561078751261" duration="6172000" />
-      <workItem from="1561339529812" duration="3142000" />
+      <workItem from="1561339529812" duration="13495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64857000" />
+    <option name="totallyTimeSpent" value="75210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369863" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1369863" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -223,62 +261,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/carousel/carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/button/button.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/no_data/index.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/radio/index.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/no_data/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/input/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="27" column="69" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/loading/loading.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/loading/loading.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -381,13 +363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/icon/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -558,13 +533,6 @@
     <entry file="file://$PROJECT_DIR$/components/chat/chat_box/index.wxss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="58" column="86" lean-forward="true" selection-start-line="58" selection-start-column="86" selection-end-line="58" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/avatar/avatar.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -572,10 +540,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/avatar/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+          <caret line="5" column="102" lean-forward="true" selection-start-line="5" selection-start-column="102" selection-end-line="5" selection-end-column="102" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#block#1;n#view#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/grid/grid_item/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="81" lean-forward="true" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="62" column="82" selection-start-line="62" selection-start-column="82" selection-end-line="62" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/grid/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/icon/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="70" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/grid/grid.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/grid/grid.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/grid/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/grid/grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/grid/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="73" selection-start-column="73" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#block#0;n#view#0;n#block#0;n#view#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#block#0;n#view#0;n#block#0;n#view#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

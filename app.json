@@ -16,7 +16,8 @@
         "pages/date_picker/date_picker",
         "pages/chat/chat",
         "pages/chat2/chat2",
-        "pages/avatar/avatar"
+        "pages/avatar/avatar",
+        "pages/grid/grid"
     ],
     "window": {
         "backgroundTextStyle": "light",

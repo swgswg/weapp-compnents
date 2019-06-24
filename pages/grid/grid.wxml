@@ -1,0 +1,4 @@
+<view>
+    <cq-grid grid="{{grid}}" size='20' line='5' border> </cq-grid>
+</view>
+
